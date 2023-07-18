@@ -3,7 +3,7 @@ import { useRef, useEffect, useState } from 'react'
 
 import io from 'socket.io-client'
 
-const socket = io('https://4567-2a0c-5a81-5309-3a00-fd6f-9527-7c67-e39.ngrok-free.app/remote-ctrl')
+const socket = io('https://f4ec-2a0c-5a81-5309-3a00-ec38-b769-5136-9f11.ngrok-free.app/remote-ctrl')
 
 function App() {
   const videoRef = useRef()
