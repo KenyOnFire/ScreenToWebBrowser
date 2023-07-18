@@ -156,7 +156,7 @@ const createWindow = () => {
         }
     })
 
-    mainWindow.loadURL('https://9e6e-185-105-38-88.ngrok-free.app/')
+    mainWindow.loadURL('https://c25d-185-105-38-88.ngrok-free.app/')
 
     mainWindow.once('ready-to-show', () => {
         displays = screen.getAllDisplays()
