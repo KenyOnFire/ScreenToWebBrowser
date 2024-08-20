@@ -11,9 +11,10 @@ echo "===================================="
 echo "You Got my cook in your mouth?"
 echo "FuckCietySTeams"
 echo "===================================="
-./dist/proot -S . /bin/bash
-apt update
-apt upgrade -y
-apt install squid -y
-service squid start
+./dist/proot -S . /bin/bash -c "
+apt update &&
+apt upgrade -y &&
+apt install squid -y &&
+service squid start &&
 ssh -p 443 -o StrictHostKeyChecking=no -o ServerAliveInterval=30 -R0:localhost:3128 tcp@eu.a.pinggy.io
+"
