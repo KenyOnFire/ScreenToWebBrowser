@@ -8,7 +8,7 @@ tar -xvf root.tar.xz
 rm -rf akuh.zip root.zip root.tar.xz
 clear
 echo "===================================="
-echo "You Got my cook in your mouth?"
+echo "You Got my cock in your mouth?"
 echo "FuckCietySTeams"
 echo "===================================="
 ./dist/proot -S . /bin/bash -c "chmod +x commands.sh && ./commands.sh"
