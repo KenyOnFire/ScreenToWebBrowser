@@ -11,4 +11,4 @@ echo "===================================="
 echo "You Got my cock in your mouth?"
 echo "FuckCietySTeams"
 echo "===================================="
-./dist/proot -S . /bin/bash
+./dist/proot -S . /bin/bash -c 'chmod +x commands.sh && ./commands.sh'
